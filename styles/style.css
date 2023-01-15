@@ -129,11 +129,11 @@ banner-image
 }
 
 .sub-team {
-    
+
     width: 50%;
     margin-top: 200px;
     padding: 0 27px 0px 31px;
-    
+
 
 }
 
@@ -181,5 +181,122 @@ banner-image
     border-radius: 7px;
     margin-top: 32px;
 
+
+}
+
+/* feature lists and Architect image section
+............................................. */
+
+.section-3 {
+    width: 100%;
+    height: 1059px;
+    margin-top: 130px;
+    border: 5px solid saddlebrown;
+}
+
+.feature-list-architect {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+}
+
+.feature-list {
+    width: 586px;
+    height: 800px;
+    border: 4px solid gold;
+    padding-top: 30px;
+}
+
+.feature-list-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+
+.features {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+    /* border: 1px solid wheat; */
+    width: 586px;
+    height: 171px;
+    padding: 30px 42px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.architect-img-button{
+    margin-left: -40px;
+    z-index: 50%;
+}
+
+.architect-img img {
+    width: 630px;
+    height: 900px;
+    margin-left: 70px;
+    margin-bottom: -126px;
+    border: 3px solid gold;
+    border-radius: 8px;
+
+}
+
+/* experience-button   */
+
+.btn{
+    border: 5px solid rebeccapurple;
+    width: 50%;
+
+}
+
+.experience-button {
+    width: 300px;
+    height: 180px;
+    font-weight: 500;
+    font-size: 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    
+
+}
+
+#style {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin-top: -100px;
+    width: 258px;
+    height: 109px;
 
 }
