@@ -388,10 +388,11 @@ banner-image
     margin-left: 25%;
 
 }
+
 /*---------------- 
 section-5
 ---------------- */
-.section-5{
+.section-5 {
     margin-top: 180px;
 
 }
@@ -401,9 +402,9 @@ section-5
 .sponspors {
     width: 542px;
     height: 129px;
-    
+
     margin-left: 30%;
-   
+
 }
 
 .sponspors-title {
@@ -424,7 +425,7 @@ section-5
     color: #727272;
 }
 
-.logo-container{
+.logo-container {
     /* border: 3px solid hotpink; */
     width: 80%;
     height: 55px;
@@ -436,5 +437,56 @@ section-5
 
 [class^="logo-"] {
     filter: grayscale(100%);
-    
+
+}
+
+/* *****************
+Extra section
+********************/
+.section-6 {
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.extra-section-title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 100px;
+    padding-top: 30px;
+
+}
+
+#extra-style {
+    /* color: rgba(240, 15, 34, 0.836); */
+    color: fuchsia;
+}
+
+.extra-section-logo {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/*!!!!!!!!!!!!! 
+Footer 
+!!!!!!!!!!!!!!!*/
+.footer {
+    width: 1140px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    /* border: 4px solid fuchsia; */
+    margin-left: 10%;
+    margin-top: 130px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #424242;
 }
