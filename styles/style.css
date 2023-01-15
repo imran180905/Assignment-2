@@ -343,11 +343,18 @@ banner-image
     height: 241.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: width 3s, height 3s, transform 3s;
     /* transform: rotate(90deg); */
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* padding: 45px 35px 60px 35px; */
+}
+
+.info:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
 }
 
 .number {
@@ -467,7 +474,8 @@ Extra section
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*!!!!!!!!!!!!! 
@@ -489,4 +497,245 @@ Footer
     padding-top: 40px;
     text-align: center;
     color: #424242;
+}
+
+
+/* Lets response our site */
+
+/* For mobile device max-width: 576px */
+
+@media only screen and (max-width: 576px) {
+    .header {}
+
+    .header-title h2 {
+        font-weight: 700;
+        font-size: 35px;
+        width: 100%;
+        padding-right: 20px;
+
+        text-align: center;
+    }
+
+    .section-1 {
+
+        flex-direction: column;
+
+    }
+
+    .nav {
+        margin-right: 250px;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start gap: 10px;
+    }
+
+    .banner {
+
+        width: 100%;
+        height: 250px;
+        /* border: 2px solid seagreen; */
+        align-items: center;
+        /* margin-right: 30%; */
+        margin-left: 0px;
+
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 35px;
+        /* text-align: center; */
+    }
+
+    .explore-1 {
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: 50vh;
+        border-radius: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+
+
+    /* Main part */
+
+    /* section-2 */
+
+
+    .team {
+
+        flex-direction: column;
+    }
+
+    .team-image {
+        width: 100%;
+        height: 50vh;
+
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 70px;
+    }
+
+    .sub-team {
+        width: 100%;
+        margin-top: 1111px;
+
+    }
+
+    .sub-team p {
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    .explore-2 {
+        margin-left: 19%;
+    }
+
+    /* Section-3 */
+
+    .feature-list-architect {
+
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .feature-list-title {
+        font-weight: 700;
+        font-size: 40px;
+
+        margin-top: -70px;
+    }
+
+    .feature-description {
+        width: 64%;
+        height: 25vh;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 10px 0px;
+        padding: 10px 2px 0px -18px;
+
+        text-align: left;
+    }
+
+    .feature-1,
+    .feature-2,
+    .feature-3,
+    .feature-4 {
+
+        width: 373px;
+        height: 228px;
+        padding: 45px 0px 30px 3px;
+
+
+
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .architect-img img {
+        width: 100%;
+        height: 80vh;
+        margin-bottom: -64px;
+        border-radius: 8px px;
+        border: none;
+        margin-top: 618px;
+    }
+
+    .btn {
+        width: 0%;
+    }
+
+    .experience-button {
+        width: 330px;
+        height: 99px;
+        font-weight: 500;
+        font-size: 20px;
+        background: #FF900E;
+        border-radius: 8px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 30px;
+        margin-top: 6px;
+    }
+
+    /* Section-4 */
+
+    .section-4 {
+        margin-top: 80px;
+    }
+
+
+    .some-fact {
+        margin-top: 980px;
+        width: 552px;
+        height: 123px;
+
+    }
+
+    .section-4-title {
+
+        text-align: center;
+        margin-left: -450px;
+
+    }
+
+    .section-4-description {
+        margin-left: -144px;
+        width: 66%;
+        height: 85px;
+
+    }
+
+    .company-info {
+        margin-top: 100px;
+        flex-direction: column;
+        margin-left: 109px;
+        gap: 20px;
+        padding: 0px 0px;
+    }
+
+    /* Section-5 */
+    .sponspors-title {
+        padding-left: 12%;
+    }
+
+    .sponspors-description {
+        width: 68%;
+        height: 81px;
+        /* border: 4px solid red; */
+        margin-left: 37px;
+        padding-left: 27px;
+    }
+
+    .logo-container {
+        width: 46%;
+        height: 50px;
+        margin-left: 35%;
+        margin-top: 230px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .extra-section-title {
+        margin-top: 250px;
+        padding-top: 46px;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        margin-left: 1%;
+        margin-top: 57px px;
+    }
+
 }
